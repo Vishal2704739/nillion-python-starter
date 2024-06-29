@@ -1,3 +1,5 @@
+
+
 from nada_dsl import Party, SecretInteger, Input, Output
 
 def nada_main():
@@ -35,6 +37,3 @@ if __name__ == "__main__":
     outputs = nada_main()
     for output in outputs:
         print(output)
-
-
-
